@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Basics blog</title>
+
+<link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+    <h1 id="one">CSS Basics</h1>
+    <p>CSS (Cascading Style Sheets) is the code that styles web content. 
+    CSS basics walks through what you need to get started. 
+    We'll answer questions like;<br>
+    How do I make content display at a certain location in the (webpage) layout? 
+    How do I decorate my webpage with background images and colors?</p>
+    <h2>What is CSS?</h2>
+    <p>CSS is a style sheet language. 
+    CSS is what you use to selectively style HTML elements. </p>
+    <h2>CSS Syntax</h2>
+    <img src="https://lucidar.me/en/web-dev-class/files/en-internal-css-syntax.png" alt="css syntax" />
+    <p><strong>Selector:</strong> HTML element that you want to modify.</p>
+    <p><strong>Property:</strong> The element’s css property you want to modify for example color, spacing.</p>
+    <p><strong>Value:</strong> The new value of the css property like red for its color.</p>
+    <h2>Why use css?</h2>
+    <p>CSS is used to define styles for your web pages, including the design, 
+    layout and variations in display for different devices and screen sizes. 
+    For example;<br><br>
+       <code>p {<br>
+         color:aliceblue;
+      <br> }
+       </code>
+</p>
+    <p>For the code to work, we still need to apply this CSS (above) to your HTML document. 
+        Otherwise, the styling won't change the appearance of the HTML. <br>
+    <ol><li>Open your index.html file. Paste the following line in the head (between the <head> and </head> tags):<br><br>
+     
+      <img src="stylelink.png" width="350px" alt="linking css"/><br><br>
+    </li>
+        <li>Save index.html and load it in your browser. </li>
+    </ol></p>
+    <h2>Selecting multiple elements</h2>
+    <p>You can also select multiple elements. 
+      Separate multiple selectors by commas. For example:
+    <br><br>
+    <code>p, h1, li {<br>
+      color:green;
+   <br> }
+    </code>
+ 
+</p>
+<h2>CSS Selectors</h2>
+<p>They are used to find html elements you want to modify.</p>
+<h3>The CSS id Selector</h3>
+<p>To select an element with a specific id, write a hash (#) character, followed by the id of the element.<br><br>
+  <code>#one {<br>
+    color:green;
+ <br> }
+  </code>
+</p>
+<h3>The CSS class Selector</h3>
+<p>The class selector selects HTML elements with a specific class attribute.</p>
+<p>To select elements with a specific class, write a period (.) character, followed by the class name.<br><br>
+  <code>.two {<br>
+    color:green;
+ <br> }
+  </code>
+</p>
+<h2>CSS Fonts and texts</h2>
+<h3>Font Family</h3>
+<p>we use the font-family property to specify the font of a text.</p>
+<p><strong>Font Families</strong> </p>
+<img src="font-family.png" alt="font" width="350px"/>
+  </body>
+</html>
+
